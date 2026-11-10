@@ -1,0 +1,19 @@
+id_cita,paciente,ci,telefono,fecha,hora,motivo,estado
+C001,Carla Mamani Quispe,9000001 LP,70000001,2026-10-26,09:00,Limpieza dental,completada
+C002,Luis Fernando Choque,9000002 LP,70000002,2026-11-02,15:30,Control de ortodoncia,completada
+C003,Rosario Condori Huanca,9000003 OR,70000003,2026-11-06,10:00,Extraccion de muela,completada
+C004,Marcelo Vargas Rojas,9000004 CB,70000004,2026-11-04,16:00,Caries,cancelada
+C005,Carla Mamani Quispe,9000001 LP,70000001,2026-11-10,10:00,Control de limpieza,confirmada
+C006,Jhonny Apaza Flores,9000005 LP,70000005,2026-11-10,11:30,Dolor de muela,confirmada
+C007,Patricia Salazar Mendoza,9000006 SC,70000006,2026-11-10,15:00,Blanqueamiento,confirmada
+C008,Luis Fernando Choque,9000002 LP,70000002,2026-11-11,09:30,Control de ortodoncia,confirmada
+C009,Daniela Gutierrez Lima,9000007 LP,70000007,2026-11-11,12:00,Revision general,confirmada
+C010,Rodrigo Mamani Torrez,9000008 LP,70000008,2026-11-11,17:00,Caries,confirmada
+C011,Rosario Condori Huanca,9000003 OR,70000003,2026-11-12,09:00,Control post extraccion,confirmada
+C012,Ximena Rojas Alanoca,9000009 TJ,70000009,2026-11-12,16:30,Limpieza dental,confirmada
+C013,Marcelo Vargas Rojas,9000004 CB,70000004,2026-11-13,10:30,Caries,confirmada
+C014,Sofia Quispe Nina,9000010 LP,70000010,2026-11-13,15:30,Revision general,confirmada
+C015,Jhonny Apaza Flores,9000005 LP,70000005,2026-11-16,09:00,Endodoncia,confirmada
+C016,Patricia Salazar Mendoza,9000006 SC,70000006,2026-11-16,11:00,Control de blanqueamiento,confirmada
+C017,Daniela Gutierrez Lima,9000007 LP,70000007,2026-11-17,17:30,Limpieza dental,confirmada
+C018,Alvaro Callisaya Pari,9000011 LP,70000011,2026-11-18,10:00,Revision general,cancelada
