@@ -33,18 +33,18 @@ El agente decide el orden de las herramientas, pero **el código pone los límit
 
 ```mermaid
 flowchart TD
-    A[Mensaje del paciente] --> B[LLM: decide qué hacer]
-    B --> C{¿Pide herramienta?}
-    C -- No --> D[Responde al paciente · Fin]
-    C -- Sí --> E{¿Pasó el límite? 8 llamadas / 6 herramientas}
-    E -- Sí --> F[Corta con un mensaje · Fin]
-    E -- No --> G{¿Es cancelar_cita?}
-    G -- Sí --> H[Pausa: aprobación humana]
-    H -- Rechaza --> I[No se ejecuta]
-    H -- Aprueba --> J[Ejecuta la herramienta MCP]
-    G -- No --> J
-    J --> K[agenda.py valida las reglas]
-    K --> L[Observa: el resultado vuelve al LLM]
+    A["Mensaje del paciente"] --> B["LLM decide qué hacer"]
+    B --> C{"¿Pide herramienta?"}
+    C -->|No| D["Responde al paciente. Fin"]
+    C -->|Sí| E{"¿Pasó el límite de llamadas?"}
+    E -->|Sí| F["Corta con un mensaje. Fin"]
+    E -->|No| G{"¿Es cancelar_cita?"}
+    G -->|Sí| H["Pausa: aprobación humana"]
+    H -->|Rechaza| I["No se ejecuta"]
+    H -->|Aprueba| J["Ejecuta la herramienta MCP"]
+    G -->|No| J
+    J --> K["agenda.py valida las reglas"]
+    K --> L["Observa: el resultado vuelve al LLM"]
     I --> L
     L --> B
 ```
